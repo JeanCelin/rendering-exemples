@@ -9,6 +9,9 @@ export default function Navbar() {
       <Link href={"/rendering/SSR"} aschild="true">
         <li>SSR</li>
       </Link>
+      <Link href={"/rendering/CSR"} aschild="true">
+        <li>CSR</li>
+      </Link>
     </ul>
   );
 }
