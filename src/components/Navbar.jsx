@@ -12,6 +12,9 @@ export default function Navbar() {
       <Link href={"/rendering/CSR"} aschild="true">
         <li>CSR</li>
       </Link>
+      <Link href={"/rendering/SSG"} aschild="true">
+        <li>SSG</li>
+      </Link>
     </ul>
   );
 }
